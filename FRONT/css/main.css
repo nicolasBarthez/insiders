@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+
+}
+.nav-profile {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: inline-block;
+
+}
+
+.nav-photo-profil{
+  border: 1px solid grey;
+  border-radius: 50%;
+
+}
+
+.nav-bar-wave {
+  width: 100%;
+}
