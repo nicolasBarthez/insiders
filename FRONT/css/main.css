@@ -1,7 +1,21 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9 ;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo-container > img {
+  width: 120%;
+
 }
 
 .nav-bar {
@@ -9,18 +23,35 @@
   align-items: center;
 
 }
-.nav-profile {
-  display: flex;
-  align-items: center;
-}
+
 
 .nav-list {
   display: inline-block;
+  font-size: 1.5vw;
+  padding: 0 30px;
+}
+
+.nav-list > svg {
+  font-size: 30vw;
 
 }
 
+.nav-profile {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .nav-photo-profil{
-  border: 1px solid grey;
+  width: 15%;
+  margin-right: 15px;
+
+}
+.nav-photo-profil > img {
+  width: 100%;
+  border: 1px solid black;
   border-radius: 50%;
 
 }

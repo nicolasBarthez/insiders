@@ -3,29 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Insiders home page - Iteration #1</title>
+    <!-- Roboto from embed-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <nav>
-      <img src="./images/logo.png" alt="">
-      <div class="nav">
-        <ul class="Nav-bar">
+    <nav class="nav">
+        <div class="logo-container">
+          <img src="./images/logo.png" alt="logo-insider">
+        </div>
+        <ul class="nav-bar">
           <li class="nav-list">Stream</li>
           <li class="nav-list">Trending</li>
           <li class="nav-list">Insidersboard</li>
+          <li class="nav-list"><svg viewBox="0 0 24 24" role="presentation" aria-hidden="true" focusable="false" style="display:block;fill:currentColor;height:18px;width:18px;" data-reactid="90"><path d="M10.4 18.2c-4.2-.6-7.2-4.5-6.6-8.8.6-4.2 4.5-7.2 8.8-6.6 4.2.6 7.2 4.5 6.6 8.8-.6 4.2-4.6 7.2-8.8 6.6M23 22l-5-5c1.4-1.4 2.3-3.1 2.6-5.2.7-5.1-2.8-9.7-7.8-10.5-5-.7-9.7 2.8-10.5 7.9-.7 5.1 2.8 9.7 7.8 10.5 2.5.4 4.9-.3 6.7-1.7v.1l5 5c.3.3.8.3 1.1 0 .3-.3.4-.8.1-1.1" fill-rule="evenodd" data-reactid="91"></path></svg></li>
         </ul>
-        <img src="./images/loupe.png" alt="">
         <div class="nav-profile">
           <div class="nav-photo-profil">
             <img src="./images/photo-profile.jpg" alt="">
           </div>
-          <div class="nav-user-name">Nicolas Barthez</div>
-          <div class="nav-status">
-            <div class="nav-status-light"></div>
-            <div class="nav-status-pseudo">@nico777</div>
+          <div class="nav-user-profile">
+            <div id ="userName" class="nav-user-name">Nicolas Barthez</div>
+            <div class="nav-status">
+              <div class="nav-status-light"></div>
+              <div class="nav-status-pseudo">@nico777</div>
+            </div>
           </div>
         </div>
-      </div>
     </nav>
     <img class="nav-bar-wave" src="./images/nav-bar-wave.png" alt="">
 
